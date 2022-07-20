@@ -21,7 +21,7 @@ body {
   line-height: 1.6;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   color: #6c3030;
-  letter-spacing: 0.10em;
+  letter-spacing: 0.05em;
 }
 
 a {
@@ -45,7 +45,7 @@ li {
   list-style: none;
 }
 
-@media (min-width: 901px) {
+@media (min-width:100px) {
   .sp_only {
     display: none !important;
   }
@@ -79,12 +79,12 @@ header a {
 }
 
 header .inner {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   position: relative;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 5px rgba(40, 10, 10, 0.35);
   border-radius: 4px;
   margin: 20px;
 }
@@ -92,13 +92,13 @@ header .inner {
 /* ロゴ */
 #header_logo img {
   display: block;
-  width: 100px;
+  width: 50px;
 }
 
 /* メニュー */
 #global_menu {
   display: flex;
-  font-size: 23px;
+  font-size: 20px;
   position: relative;
 }
 
@@ -182,7 +182,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 }
 
 .sec{
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .contents {
@@ -320,7 +320,7 @@ reportページ
 }
 
 .report {
-  border: 1px solid #ccc;
+  border: 1px solid rgb(185, 163, 163);
   padding: 40px;
 }
 
