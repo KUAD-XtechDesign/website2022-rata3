@@ -397,3 +397,9 @@ profileページ
 .mb_m {
   margin-bottom: 20px;
 }
+
+
+/* スライド高さ優先 */
+.slide img{
+  height: 300px;
+}
