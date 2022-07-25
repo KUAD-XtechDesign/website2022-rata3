@@ -12,7 +12,7 @@ html,
 body {
   height: 50%;
   font-feature-settings: "palt";
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(220, 199, 199);
   position: relative;
 }
 
@@ -120,7 +120,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
 }
 
 #menu_btn{
@@ -130,7 +130,7 @@ header .inner {
   border-radius: 20px;
   right: 10px;
   top: 7px;
-  background-color: #ccc;
+  background-color: rgb(118, 18, 18);
   z-index: 30;
   cursor: pointer;
   display: none;
@@ -220,10 +220,11 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 
 .each_link .link_pic{
   width: 200px;
+  height: 100%;
 }
 
 .each_link .link_txt{
-  margin-left: 30px;
+  margin-left: 40px;
   flex: 1;
 }
 
@@ -249,7 +250,7 @@ a.link_btn{
 a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
-  color: #fff;
+  color: rgb(64, 20, 20);
   background-color: #333;
 }
 
