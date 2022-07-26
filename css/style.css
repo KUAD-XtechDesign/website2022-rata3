@@ -251,7 +251,7 @@ a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
   color: rgb(64, 20, 20);
-  background-color: #333;
+  background-color: rgb(120, 37, 37);
 }
 
 /* =================================================
@@ -365,7 +365,7 @@ reportページ
   display: block;
   width: 20px;
   height: 14px;
-  border: 3px solid #666;
+  border: 3px solid rgb(168, 71, 71);
   border-radius: 3px;
   position: absolute;
   left: 0;
