@@ -377,8 +377,9 @@ reportページ
 /* =================================================
 profileページ
 ================================================= */
+
 .profile_container{
-  writing-mode: vertical-rl;
+  writing-mode: horizontal-tb;
   text-orientation: upright;
   width: 50%;
   height: 300px;
