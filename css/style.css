@@ -257,6 +257,17 @@ a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
 /* =================================================
 worksページ
 ================================================= */
+.works_eye_catch {
+  height: 300px;
+  background-image: url(../images/worktop.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
 
 .thumb_list {
   display: flex;
