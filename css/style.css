@@ -10,9 +10,9 @@
 
 html,
 body {
-  height: 100%;
+  height: 50%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(220, 199, 199);
   position: relative;
 }
 
@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #333333;
+  color: #6c3030;
   letter-spacing: 0.05em;
 }
 
@@ -45,7 +45,7 @@ li {
   list-style: none;
 }
 
-@media (min-width: 901px) {
+@media (min-width:100px) {
   .sp_only {
     display: none !important;
   }
@@ -79,12 +79,12 @@ header a {
 }
 
 header .inner {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   position: relative;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 5px rgba(40, 10, 10, 0.35);
   border-radius: 4px;
   margin: 20px;
 }
@@ -92,13 +92,13 @@ header .inner {
 /* ロゴ */
 #header_logo img {
   display: block;
-  width: 100px;
+  width: 50px;
 }
 
 /* メニュー */
 #global_menu {
   display: flex;
-  font-size: 23px;
+  font-size: 20px;
   position: relative;
 }
 
@@ -120,7 +120,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
 }
 
 #menu_btn{
@@ -130,7 +130,7 @@ header .inner {
   border-radius: 20px;
   right: 10px;
   top: 7px;
-  background-color: #ccc;
+  background-color: rgb(118, 18, 18);
   z-index: 30;
   cursor: pointer;
   display: none;
@@ -182,13 +182,13 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 }
 
 .sec{
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .contents {
   max-width: 1000px;
-  min-height: 600px;
-  padding: 20px;
+  min-height: 50px;
+  padding: 60px;
   margin: auto;
 }
 
@@ -197,9 +197,9 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: bold;
-  background-image: url(../images/top.jpg);/* 背景画像 */
+  background-image: url(../images/haikei.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
   background-position: center center;/* 背景画像の位置 */
   background-attachment: fixed;/* スクロールしたときの背景画像の位置 固定 */
@@ -220,10 +220,11 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 
 .each_link .link_pic{
   width: 200px;
+  height: 100%;
 }
 
 .each_link .link_txt{
-  margin-left: 30px;
+  margin-left: 40px;
   flex: 1;
 }
 
@@ -249,13 +250,24 @@ a.link_btn{
 a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
-  color: #fff;
-  background-color: #333;
+  color: rgb(64, 20, 20);
+  background-color: rgb(120, 37, 37);
 }
 
 /* =================================================
 worksページ
 ================================================= */
+.works_eye_catch {
+  height: 300px;
+  background-image: url(../images/worktop.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
 
 .thumb_list {
   display: flex;
@@ -309,7 +321,7 @@ reportページ
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/works2.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -320,8 +332,11 @@ reportページ
 }
 
 .report {
-  border: 1px solid #ccc;
-  padding: 40px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border: 22px solid rgb(185, 163, 163);
+  padding: 30px;
 }
 
 .report .outline {
@@ -329,26 +344,26 @@ reportページ
   display: flex;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 0px) {
   .report .outline {
     display: block;
   }
 }
 
 .report .outline .pic {
-  width: 45%;
-  border: 3px solid #999;
+  width: 30%;
+  border: 1px solid rgb(154, 121, 121);
 }
 
 .report .outline .txt {
   flex: 1;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .report h1 {
   margin-bottom: 20px;
   padding-left: 10px;
-  border-left: 5px solid #ff9a02;
+  border-left: 5px solid #ba4025;
 }
 
 .ex_link {
@@ -362,9 +377,9 @@ reportページ
   box-sizing: border-box;
   content: "";
   display: block;
-  width: 20px;
+  width: 10px;
   height: 14px;
-  border: 3px solid #666;
+  border: 5px solid rgb(168, 71, 71);
   border-radius: 3px;
   position: absolute;
   left: 0;
@@ -376,9 +391,11 @@ reportページ
 /* =================================================
 profileページ
 ================================================= */
+
 .profile_container{
-  writing-mode: vertical-rl;
-  width: 100%;
+  writing-mode: horizontal-tb;
+  text-orientation: upright;
+  width: 50%;
   height: 300px;
   overflow: auto;
 }
@@ -394,4 +411,10 @@ profileページ
 ======================================================*/
 .mb_m {
   margin-bottom: 20px;
+}
+
+
+/* スライド高さ優先 */
+.slide img{
+  height: 300px;
 }
